@@ -30,16 +30,16 @@ export const Header = () => {
         </Link>
 
         <div className={"ml-12 lg:flex items-center gap-6 hidden"}>
-          {navLinks.map((link) => (
-            <Link
-              href={link.href}
-              key={link.id}
-              target={link.href.includes("https") ? "_blank" : "_self"}
-              rel="noopener noreferrer"
-            >
-              {link.title}
-            </Link>
-          ))}
+          {/*{navLinks.map((link) => (*/}
+          {/*  <Link*/}
+          {/*    href={link.href}*/}
+          {/*    key={link.id}*/}
+          {/*    target={link.href.includes("https") ? "_blank" : "_self"}*/}
+          {/*    rel="noopener noreferrer"*/}
+          {/*  >*/}
+          {/*    {link.title}*/}
+          {/*  </Link>*/}
+          {/*))}*/}
         </div>
 
         <Drawer>
@@ -48,17 +48,17 @@ export const Header = () => {
           </DrawerTrigger>
           <DrawerContent>
             <div className={"flex flex-col gap-6 pb-20 pt-10"}>
-              {navLinks.map((link) => (
-                <Link
-                  href={link.href}
-                  key={link.id}
-                  target={link.href.includes("https") ? "_blank" : "_self"}
-                  rel="noopener noreferrer"
-                  className={"block px-8"}
-                >
-                  {link.title}
-                </Link>
-              ))}
+              {/*{navLinks.map((link) => (*/}
+              {/*  <Link*/}
+              {/*    href={link.href}*/}
+              {/*    key={link.id}*/}
+              {/*    target={link.href.includes("https") ? "_blank" : "_self"}*/}
+              {/*    rel="noopener noreferrer"*/}
+              {/*    className={"block px-8"}*/}
+              {/*  >*/}
+              {/*    {link.title}*/}
+              {/*  </Link>*/}
+              {/*))}*/}
             </div>
           </DrawerContent>
         </Drawer>
