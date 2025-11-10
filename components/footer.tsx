@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { Typography } from "@/components/ui/typography";
 import Link from "next/link";
 import { TwitterIcon } from "lucide-react";
 
